@@ -1,5 +1,10 @@
 # Bin2PNG
 
+WIP In Progress. Its modified for Linux from Leeroy Brun source. Thanks Leeroy :)
+
+//Artur
+
+
 Convert a binary file to a PNG image and then decrypt it back to binary.
 
 ## Binary to PNG :
