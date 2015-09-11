@@ -20,8 +20,8 @@
 #include "lodepng.h"
 
 #define PNG_FILE "image.png"
-#define BIN_IN_FILE "in.exe"
-#define BIN_OUT_FILE "out.exe"
+#define BIN_IN_FILE "infile"
+#define BIN_OUT_FILE "outfile"
 
 int binaryToPng();
 int pngToBinary();
