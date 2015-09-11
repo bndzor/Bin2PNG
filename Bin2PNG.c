@@ -57,7 +57,7 @@ int binaryToPng() {
 	// Open binary file
 	binaryFile = fopen(BIN_IN_FILE, "rb");
 	if(binaryFile == NULL) {
-		printf("Error reading '%s' file.", BIN_IN_FILE);
+		printf("Error reading '%s' file.\n", BIN_IN_FILE);
 		return 0;
 	} else {
 		// Get file length
@@ -183,7 +183,7 @@ int pngToBinary() {
 	// Write data to binary file
 	binaryFile = fopen(BIN_OUT_FILE, "wb");
 	if(binaryFile == NULL) {
-		printf("Error reading '%s' file.", BIN_IN_FILE);
+		printf("Error reading '%s' file.\n", BIN_IN_FILE);
 		return 0;
 	} else {
 		fwrite(binaryBuff, (imageSize*imageSize*sizeof(unsigned char)), 1, binaryFile);
